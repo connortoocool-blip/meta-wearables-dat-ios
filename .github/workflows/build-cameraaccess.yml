@@ -28,6 +28,7 @@ jobs:
             -sdk iphoneos \
             -destination 'generic/platform=iOS' \
             -derivedDataPath build \
+            PRODUCT_BUNDLE_IDENTIFIER=com.connorarnold.aurorapresence.cameraaccess \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             DEVELOPMENT_TEAM="" \
